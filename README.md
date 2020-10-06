@@ -6,7 +6,6 @@
 ```c++
 
 void setup() {
-  // put your setup code here, to run once:
  pinMode(3, OUTPUT);
   digitalWrite(3, LOW);
   pinMode(2, INPUT);
@@ -14,7 +13,6 @@ void setup() {
 }
 bool i = true;
 void loop() {
-  // put your main code here, to run repeatedly:
  if(digitalRead(2)==0)
   {
     while(digitalRead(2)==0);{delay(10);}//★防彈跳★
