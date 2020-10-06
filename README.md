@@ -17,8 +17,8 @@ void loop() {
   // put your main code here, to run repeatedly:
  if(digitalRead(2)==0)
   {
-    while(digitalRead(2)==0);{delay(10);}
-     i =!i;
+    while(digitalRead(2)==0);{delay(10);}//★防彈跳★
+     i =!i;//!是加反閘的意思
      digitalWrite(3,i);
      
   }
